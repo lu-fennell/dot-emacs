@@ -4,7 +4,7 @@
 (require 'check-customize "~/.emacs.d/check-customize.el")
 
 (defvar check-customize-list
-  '()
+  '(org-directory)
   )
 
 (check-customize check-customize-list custom-file)
