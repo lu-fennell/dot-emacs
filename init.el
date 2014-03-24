@@ -174,7 +174,8 @@
 (use-package dired
   :init
   (progn
-    (use-package dired-details+)
+    (use-package dired-details+
+      :ensure dired-details+)
     (setq
      dired-bind-jump nil
      dired-details-hidden-string ""
