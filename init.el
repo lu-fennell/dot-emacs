@@ -405,6 +405,7 @@
 
 ;;; Load program specific init files
 (let ((program (getenv "EMACS_PROGRAM")))
+  (setenv "EMACS_PROGRAM")
   (when program
     (message "Loading program: %s" program)
     (load-file (concat my-emacs-home (format "init-%s.el" program)))))
