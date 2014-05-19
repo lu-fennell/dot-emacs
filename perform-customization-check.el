@@ -9,9 +9,11 @@
     message-send-mail-function
     org-directory
     org-mobile-directory
+    org-mobile-files
     reftex-default-bibliography
     user-full-name
-    user-mail-address)
+    user-mail-address
+    )
   )
 
 (check-customize check-customize-list custom-file)
